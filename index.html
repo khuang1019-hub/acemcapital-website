@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ACEM Capital — Crossing Borders. Securing Futures.</title>
+  <meta name="description" content="A Hong Kong advisory firm specialising in European and Middle Eastern real estate investment and cross-border insurance brokerage for global families." />
+
+  <meta property="og:title" content="ACEM Capital" />
+  <meta property="og:description" content="Crossing Borders. Securing Futures." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://acemcapital.hk" />
+  <meta property="og:locale" content="en_HK" />
+  <meta property="og:locale:alternate" content="zh_CN" />
+
+  <link rel="alternate" hreflang="en" href="https://acemcapital.hk/" />
+  <link rel="alternate" hreflang="zh" href="https://acemcapital.hk/zh/" />
+  <link rel="alternate" hreflang="x-default" href="https://acemcapital.hk/" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Noto+Serif+SC:wght@200;300;400;500;600&display=swap" rel="stylesheet" />
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            beige: '#F5EDE0',
+            'beige-soft': '#EFE4D2',
+            'beige-deep': '#E5D5BA',
+            khaki: '#C4A47C',
+            terra: '#B85C38',
+            'terra-dark': '#8F4427',
+            caramel: '#A0522D',
+            deep: '#3E2723',
+            'deep-2': '#2A1A14',
+            ink: { DEFAULT: '#2A2520', soft: '#6B5D4F', faint: '#998875' },
+          },
+          fontFamily: {
+            serif: ['"Cormorant Garamond"', '"Noto Serif SC"', 'serif'],
+          },
+        },
+      },
+    };
+  </script>
+
+  <style>
+    html { scroll-behavior: smooth; }
+    body { background: #F5EDE0; color: #2A2520; font-family: "Cormorant Garamond", "Noto Serif SC", serif; line-height: 1.6; -webkit-font-smoothing: antialiased; }
+    h1, h2, h3 { font-family: "Cormorant Garamond", "Noto Serif SC", serif; }
+    .section-tag { font-style: italic; font-size: 12px; letter-spacing: 0.32em; text-transform: uppercase; color: #B85C38; font-weight: 400; }
+    .nav-tracked { font-size: 11px; letter-spacing: 0.28em; text-transform: uppercase; font-weight: 400; }
+    .display { letter-spacing: -0.01em; line-height: 1.08; font-weight: 400; }
+    .display-italic { font-style: italic; font-weight: 400; }
+    .pill-btn { display: inline-block; padding: 12px 28px; border: 0.5px solid #B85C38; color: #B85C38; font-size: 11px; letter-spacing: 0.28em; text-transform: uppercase; background: transparent; font-weight: 400; transition: all .4s ease; }
+    .pill-btn:hover { background: #B85C38; color: #F5EDE0; letter-spacing: 0.36em; }
+    .pill-btn.ink { border-color: #2A2520; color: #2A2520; }
+    .pill-btn.ink:hover { background: #2A2520; color: #F5EDE0; }
+    .pill-btn.on-dark { border-color: #F5EDE0; color: #F5EDE0; }
+    .pill-btn.on-dark:hover { background: #F5EDE0; color: #2A2520; }
+    .gold-divider { width: 48px; height: 0.5px; background: #C4A47C; display: block; margin: 0 auto; }
+    .scroll-hint { animation: bobble 2.6s ease-in-out infinite; }
+    @keyframes bobble { 0%, 100% { transform: translateY(0); opacity: .7; } 50% { transform: translateY(8px); opacity: 1; } }
+    .fade-up { opacity: 0; transform: translateY(24px); animation: fadeUp 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+    @keyframes fadeUp { to { opacity: 1; transform: translateY(0); } }
+    .d-1 { animation-delay: .12s; }
+    .d-2 { animation-delay: .24s; }
+    .d-3 { animation-delay: .36s; }
+    .d-4 { animation-delay: .48s; }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="fixed top-0 inset-x-0 z-50 bg-beige/75 backdrop-blur-xl">
+    <div class="max-w-7xl mx-auto px-6 md:px-14 h-16 flex items-center justify-between">
+      <a href="index.html" class="nav-tracked text-terra" style="letter-spacing:0.32em;">ACEM CAPITAL</a>
+      <div class="hidden md:flex items-center gap-10 nav-tracked text-ink/70">
+        <a href="#about" class="hover:text-terra transition">About</a>
+        <a href="#services" class="hover:text-terra transition">Services</a>
+        <a href="#why" class="hover:text-terra transition">Why Us</a>
+        <a href="#process" class="hover:text-terra transition">Process</a>
+        <a href="#contact" class="hover:text-terra transition">Contact</a>
+      </div>
+      <div class="nav-tracked flex items-center" style="letter-spacing:0.18em;">
+        <span class="text-terra">EN</span>
+        <span class="text-ink/30 mx-2">·</span>
+        <a href="zh/index.html" class="text-ink/45 hover:text-terra transition">中</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="min-h-screen flex flex-col px-6 pt-24 pb-10">
+    <div class="flex-1 flex flex-col items-center justify-center text-center">
+      <p class="section-tag mb-12 fade-up">Hong Kong · Europe · Middle East</p>
+
+      <h1 class="display text-6xl md:text-8xl lg:text-[7.5rem] text-ink max-w-5xl fade-up d-1">
+        Crossing Borders<br /><span class="display-italic text-terra">Securing Futures</span>
+      </h1>
+
+      <span class="gold-divider mt-14 fade-up d-2"></span>
+
+      <p class="mt-10 text-xl md:text-2xl text-ink-soft font-light max-w-2xl leading-relaxed fade-up d-3">
+        Specialised advisory in overseas real estate and cross-border insurance — for families who think in decades.
+      </p>
+
+      <div class="mt-14 flex flex-col md:flex-row gap-5 fade-up d-4">
+        <a href="#contact" class="pill-btn">Schedule Consultation</a>
+        <a href="#services" class="pill-btn ink">Our Services</a>
+      </div>
+    </div>
+
+    <div class="text-center pt-8 scroll-hint">
+      <a href="#about" class="text-ink-faint hover:text-terra transition inline-flex flex-col items-center gap-2 nav-tracked">
+        <span>Scroll</span>
+        <span class="text-base">↓</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-32 md:py-44 px-6 bg-beige-soft">
+    <div class="max-w-4xl mx-auto text-center">
+      <p class="section-tag mb-8">About</p>
+      <span class="gold-divider mb-12"></span>
+      <h2 class="display text-4xl md:text-6xl text-ink">
+        Built for <span class="display-italic text-terra">global families</span>
+      </h2>
+      <p class="mt-12 text-xl md:text-2xl text-ink-soft leading-relaxed font-light max-w-3xl mx-auto">
+        ACEM Capital is an independent advisory firm rooted in Hong Kong. We help families and individuals navigate European and Middle Eastern real estate, and the cross-border insurance that protects what follows.
+      </p>
+    </div>
+  </section>
+
+  <!-- Service 1: Real Estate -->
+  <section id="services" class="py-32 md:py-44 px-6 bg-beige">
+    <div class="max-w-5xl mx-auto">
+      <div class="text-center mb-16">
+        <p class="section-tag mb-8">Real Estate Advisory</p>
+        <span class="gold-divider mb-12"></span>
+        <h2 class="display text-4xl md:text-6xl text-ink">
+          Europe &amp; the Middle East,<br /><span class="display-italic text-terra">end to end</span>
+        </h2>
+      </div>
+
+      <p class="text-center text-xl md:text-2xl text-ink-soft leading-relaxed font-light max-w-3xl mx-auto mb-20">
+        From London townhouses to Dubai waterfronts, Lisbon golden visa portfolios to Riyadh's emerging districts — we source, evaluate, and execute property strategies that align with how you actually live.
+      </p>
+
+      <div class="grid md:grid-cols-2 gap-x-16 gap-y-10 max-w-3xl mx-auto">
+        <div class="border-t border-khaki/50 pt-5">
+          <p class="text-xs tracking-[0.28em] text-khaki uppercase mb-3">01</p>
+          <p class="text-ink text-xl font-light">Market research &amp; sourcing</p>
+        </div>
+        <div class="border-t border-khaki/50 pt-5">
+          <p class="text-xs tracking-[0.28em] text-khaki uppercase mb-3">02</p>
+          <p class="text-ink text-xl font-light">Acquisition &amp; legal</p>
+        </div>
+        <div class="border-t border-khaki/50 pt-5">
+          <p class="text-xs tracking-[0.28em] text-khaki uppercase mb-3">03</p>
+          <p class="text-ink text-xl font-light">Residency &amp; visas</p>
+        </div>
+        <div class="border-t border-khaki/50 pt-5">
+          <p class="text-xs tracking-[0.28em] text-khaki uppercase mb-3">04</p>
+          <p class="text-ink text-xl font-light">Post-acquisition stewardship</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service 2: Insurance -->
+  <section class="py-32 md:py-44 px-6 bg-beige-deep">
+    <div class="max-w-5xl mx-auto">
+      <div class="text-center mb-16">
+        <p class="section-tag mb-8">Insurance Brokerage</p>
+        <span class="gold-divider mb-12"></span>
+        <h2 class="display text-4xl md:text-6xl text-ink">
+          Wealth, structured<br /><span class="display-italic text-terra">to outlast generations</span>
+        </h2>
+      </div>
+
+      <p class="text-center text-xl md:text-2xl text-ink-soft leading-relaxed font-light max-w-3xl mx-auto mb-20">
+        Independent counsel across leading global carriers — calibrated to your family structure, tax position, and legacy intent.
+      </p>
+
+      <div class="grid md:grid-cols-2 gap-x-16 gap-y-10 max-w-3xl mx-auto">
+        <div class="border-t border-khaki/50 pt-5">
+          <p class="text-xs tracking-[0.28em] text-khaki uppercase mb-3">01</p>
+          <p class="text-ink text-xl font-light">High-net-worth life &amp; savings</p>
+        </div>
+        <div class="border-t border-khaki/50 pt-5">
+          <p class="text-xs tracking-[0.28em] text-khaki uppercase mb-3">02</p>
+          <p class="text-ink text-xl font-light">Critical illness &amp; medical</p>
+        </div>
+        <div class="border-t border-khaki/50 pt-5">
+          <p class="text-xs tracking-[0.28em] text-khaki uppercase mb-3">03</p>
+          <p class="text-ink text-xl font-light">Trust &amp; legacy planning</p>
+        </div>
+        <div class="border-t border-khaki/50 pt-5">
+          <p class="text-xs tracking-[0.28em] text-khaki uppercase mb-3">04</p>
+          <p class="text-ink text-xl font-light">Cross-border policy structuring</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why ACEM -->
+  <section id="why" class="py-32 md:py-48 px-6 bg-deep text-beige">
+    <div class="max-w-6xl mx-auto text-center">
+      <p class="section-tag mb-8" style="color:#C4A47C">Why ACEM</p>
+      <span class="gold-divider mb-12"></span>
+      <h2 class="display text-4xl md:text-6xl">
+        An advisory standard<br /><span class="display-italic text-terra">you can sit across from</span>
+      </h2>
+
+      <div class="mt-24 grid md:grid-cols-2 gap-x-20 gap-y-16 max-w-5xl mx-auto text-left">
+        <div>
+          <p class="text-xs tracking-[0.32em] text-khaki uppercase italic mb-5">I.</p>
+          <h3 class="text-2xl font-light mb-4">Cross-border by design</h3>
+          <p class="text-beige/70 leading-relaxed font-light text-lg">Hong Kong rooted, fluent across European and Middle Eastern markets. We move with you between jurisdictions, not around them.</p>
+        </div>
+        <div>
+          <p class="text-xs tracking-[0.32em] text-khaki uppercase italic mb-5">II.</p>
+          <h3 class="text-2xl font-light mb-4">Independent counsel</h3>
+          <p class="text-beige/70 leading-relaxed font-light text-lg">We hold no in-house product. Every recommendation answers only to your interests.</p>
+        </div>
+        <div>
+          <p class="text-xs tracking-[0.32em] text-khaki uppercase italic mb-5">III.</p>
+          <h3 class="text-2xl font-light mb-4">Curated markets</h3>
+          <p class="text-beige/70 leading-relaxed font-light text-lg">We work where we've earned conviction — and walk away when we haven't.</p>
+        </div>
+        <div>
+          <p class="text-xs tracking-[0.32em] text-khaki uppercase italic mb-5">IV.</p>
+          <h3 class="text-2xl font-light mb-4">The long view</h3>
+          <p class="text-beige/70 leading-relaxed font-light text-lg">Real estate and insurance are decisions measured in decades. We staff and structure our service to match.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process -->
+  <section id="process" class="py-32 md:py-44 px-6 bg-beige-soft">
+    <div class="max-w-6xl mx-auto">
+      <div class="text-center mb-20">
+        <p class="section-tag mb-8">How We Work</p>
+        <span class="gold-divider mb-12"></span>
+        <h2 class="display text-4xl md:text-6xl text-ink">
+          Four steps <span class="display-italic text-terra">no surprises</span>
+        </h2>
+      </div>
+
+      <div class="grid md:grid-cols-4 gap-12">
+        <div class="text-center md:text-left">
+          <p class="text-xs tracking-[0.28em] text-khaki uppercase italic mb-5">Step 1</p>
+          <h3 class="text-2xl font-light text-ink mb-4">Discovery</h3>
+          <p class="text-ink-soft leading-relaxed font-light text-sm">We listen first — your objectives, family, risk appetite, and horizons.</p>
+        </div>
+        <div class="text-center md:text-left">
+          <p class="text-xs tracking-[0.28em] text-khaki uppercase italic mb-5">Step 2</p>
+          <h3 class="text-2xl font-light text-ink mb-4">Strategy</h3>
+          <p class="text-ink-soft leading-relaxed font-light text-sm">A written blueprint of jurisdictions, asset classes, and insurance overlays.</p>
+        </div>
+        <div class="text-center md:text-left">
+          <p class="text-xs tracking-[0.28em] text-khaki uppercase italic mb-5">Step 3</p>
+          <h3 class="text-2xl font-light text-ink mb-4">Execution</h3>
+          <p class="text-ink-soft leading-relaxed font-light text-sm">Sourcing, negotiation, legal coordination, and structuring — end to end.</p>
+        </div>
+        <div class="text-center md:text-left">
+          <p class="text-xs tracking-[0.28em] text-khaki uppercase italic mb-5">Step 4</p>
+          <h3 class="text-2xl font-light text-ink mb-4">Stewardship</h3>
+          <p class="text-ink-soft leading-relaxed font-light text-sm">Annual reviews, market intelligence, and counsel — for the long term.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-32 md:py-48 px-6 bg-beige-deep">
+    <div class="max-w-3xl mx-auto text-center">
+      <p class="section-tag mb-8">Get in Touch</p>
+      <span class="gold-divider mb-12"></span>
+      <h2 class="display text-4xl md:text-6xl text-ink">
+        Begin a <span class="display-italic text-terra">conversation</span>
+      </h2>
+      <p class="mt-12 text-base md:text-lg text-ink-soft leading-relaxed font-light max-w-3xl mx-auto">
+        From a single transaction to a multi-decade plan — we welcome the conversation.
+      </p>
+      <a href="mailto:info@acemcapital.hk" class="inline-block mt-10 text-base md:text-lg text-terra hover:text-terra-dark transition">
+        info@acemcapital.hk
+      </a>
+      <div class="mt-10 text-xs uppercase tracking-[0.16em] text-ink-faint leading-loose space-y-1">
+        <p>Room P11, Flat 2C, 2/F</p>
+        <p>Hung To Centre, 94-96 How Ming Street</p>
+        <p>Kwun Tong, Kowloon, Hong Kong</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-deep-2 text-beige pt-20 pb-12 px-6">
+    <div class="max-w-7xl mx-auto">
+      <div class="grid md:grid-cols-4 gap-12 mb-16">
+        <div class="md:col-span-2">
+          <p class="text-sm tracking-[0.32em] uppercase mb-4 text-terra">ACEM CAPITAL</p>
+          <p class="text-beige/65 max-w-xs leading-relaxed font-light">An independent advisory firm rooted in Hong Kong, serving global families across European and Middle Eastern real estate and cross-border insurance.</p>
+        </div>
+        <div>
+          <p class="text-xs tracking-[0.32em] uppercase italic text-khaki mb-6">Explore</p>
+          <ul class="space-y-3 text-beige/70">
+            <li><a href="#about" class="hover:text-terra transition">About</a></li>
+            <li><a href="#services" class="hover:text-terra transition">Services</a></li>
+            <li><a href="#why" class="hover:text-terra transition">Why Us</a></li>
+            <li><a href="#process" class="hover:text-terra transition">Process</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="text-xs tracking-[0.32em] uppercase italic text-khaki mb-6">Contact</p>
+          <ul class="space-y-3 text-beige/70">
+            <li><a href="mailto:info@acemcapital.hk" class="hover:text-terra transition">info@acemcapital.hk</a></li>
+            <li class="leading-loose">Room P11, Flat 2C, 2/F<br>Hung To Centre, 94-96 How Ming Street<br>Kwun Tong, Kowloon, Hong Kong</li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t border-beige/10 pt-8 flex flex-col md:flex-row justify-between gap-4 text-xs text-beige/45 font-light">
+        <p>© 2026 ACEM Capital. All rights reserved.</p>
+        <p class="max-w-md md:text-right leading-relaxed italic">Information on this website is general in nature and does not constitute investment, insurance, legal, or tax advice.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

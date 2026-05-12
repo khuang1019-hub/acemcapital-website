@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ACEM Capital — 海外地产投资 · 跨境保险经纪</title>
+  <meta name="description" content="ACEM Capital 是一家立足香港的独立顾问机构，专注欧洲及中东地产投资咨询与跨境保险经纪服务。" />
+
+  <meta property="og:title" content="ACEM Capital" />
+  <meta property="og:description" content="跨越国界，守护未来。" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://acemcapital.hk/zh/" />
+  <meta property="og:locale" content="zh_CN" />
+  <meta property="og:locale:alternate" content="en_HK" />
+
+  <link rel="alternate" hreflang="en" href="https://acemcapital.hk/" />
+  <link rel="alternate" hreflang="zh" href="https://acemcapital.hk/zh/" />
+  <link rel="alternate" hreflang="x-default" href="https://acemcapital.hk/" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Noto+Sans+SC:wght@200;300;400;500;600&display=swap" rel="stylesheet" />
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            beige: '#F5EDE0',
+            'beige-soft': '#EFE4D2',
+            'beige-deep': '#E5D5BA',
+            khaki: '#C4A47C',
+            terra: '#B85C38',
+            'terra-dark': '#8F4427',
+            caramel: '#A0522D',
+            deep: '#3E2723',
+            'deep-2': '#2A1A14',
+            ink: { DEFAULT: '#2A2520', soft: '#6B5D4F', faint: '#998875' },
+          },
+          fontFamily: {
+            sans: ['"PingFang SC"', '"Hiragino Sans GB"', '"Microsoft YaHei"', '"Noto Sans SC"', '-apple-system', 'BlinkMacSystemFont', '"Helvetica Neue"', 'Helvetica', 'Arial', 'sans-serif'],
+          },
+        },
+      },
+    };
+  </script>
+
+  <style>
+    html { scroll-behavior: smooth; }
+    body { background: #F5EDE0; color: #2A2520; font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif; line-height: 1.95; -webkit-font-smoothing: antialiased; }
+    h1, h2, h3 { font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+    .section-tag { font-size: 13px; letter-spacing: 0.28em; color: #B85C38; font-weight: 400; }
+    .nav-tracked { font-size: 12px; letter-spacing: 0.22em; font-weight: 400; }
+    .display { letter-spacing: 0.005em; line-height: 1.2; font-weight: 400; }
+    .display-italic { font-weight: 400; }
+    .pill-btn { display: inline-block; padding: 12px 32px; border: 0.5px solid #B85C38; color: #B85C38; font-size: 13px; letter-spacing: 0.22em; background: transparent; font-weight: 400; transition: all .4s ease; }
+    .pill-btn:hover { background: #B85C38; color: #F5EDE0; letter-spacing: 0.28em; }
+    .pill-btn.ink { border-color: #2A2520; color: #2A2520; }
+    .pill-btn.ink:hover { background: #2A2520; color: #F5EDE0; }
+    .gold-divider { width: 48px; height: 0.5px; background: #C4A47C; display: block; margin: 0 auto; }
+    .scroll-hint { animation: bobble 2.6s ease-in-out infinite; }
+    @keyframes bobble { 0%, 100% { transform: translateY(0); opacity: .7; } 50% { transform: translateY(8px); opacity: 1; } }
+    .fade-up { opacity: 0; transform: translateY(24px); animation: fadeUp 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+    @keyframes fadeUp { to { opacity: 1; transform: translateY(0); } }
+    .d-1 { animation-delay: .12s; }
+    .d-2 { animation-delay: .24s; }
+    .d-3 { animation-delay: .36s; }
+    .d-4 { animation-delay: .48s; }
+  </style>
+</head>
+<body class="font-sans">
+  <!-- Navigation -->
+  <nav class="fixed top-0 inset-x-0 z-50 bg-beige/75 backdrop-blur-xl">
+    <div class="max-w-7xl mx-auto px-6 md:px-14 h-16 flex items-center justify-between">
+      <a href="index.html" class="nav-tracked text-terra" style="letter-spacing:0.32em;text-transform:uppercase;">ACEM CAPITAL</a>
+      <div class="hidden md:flex items-center gap-10 nav-tracked text-ink/70">
+        <a href="#about" class="hover:text-terra transition">关于</a>
+        <a href="#services" class="hover:text-terra transition">业务</a>
+        <a href="#why" class="hover:text-terra transition">优势</a>
+        <a href="#process" class="hover:text-terra transition">流程</a>
+        <a href="#contact" class="hover:text-terra transition">联系</a>
+      </div>
+      <div class="nav-tracked flex items-center" style="letter-spacing:0.18em;">
+        <a href="../index.html" class="text-ink/45 hover:text-terra transition">EN</a>
+        <span class="text-ink/30 mx-2">·</span>
+        <span class="text-terra">中</span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="min-h-screen flex flex-col px-6 pt-24 pb-10">
+    <div class="flex-1 flex flex-col items-center justify-center text-center">
+      <p class="section-tag mb-12 fade-up">香港 · 欧洲 · 中东</p>
+
+      <h1 class="display text-5xl md:text-7xl lg:text-[6.5rem] text-ink max-w-5xl fade-up d-1">
+        跨越国界<br /><span class="display-italic text-terra">守护未来</span>
+      </h1>
+
+      <span class="gold-divider mt-14 fade-up d-2"></span>
+
+      <p class="mt-10 text-base md:text-lg text-ink-soft font-light max-w-2xl leading-loose fade-up d-3">
+        专注海外地产投资与跨境保险经纪——为以十年为期思考的家庭服务。
+      </p>
+
+      <div class="mt-14 flex flex-col md:flex-row gap-5 fade-up d-4">
+        <a href="#contact" class="pill-btn">预约咨询</a>
+        <a href="#services" class="pill-btn ink">了解业务</a>
+      </div>
+    </div>
+
+    <div class="text-center pt-8 scroll-hint">
+      <a href="#about" class="text-ink-faint hover:text-terra transition inline-flex flex-col items-center gap-2 nav-tracked">
+        <span>向下浏览</span>
+        <span class="text-base">↓</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-32 md:py-44 px-6 bg-beige-soft">
+    <div class="max-w-4xl mx-auto text-center">
+      <p class="section-tag mb-8">关于</p>
+      <span class="gold-divider mb-12"></span>
+      <h2 class="display text-4xl md:text-6xl text-ink">
+        为<span class="display-italic text-terra">全球家庭</span>而生
+      </h2>
+      <p class="mt-12 text-base md:text-lg text-ink-soft leading-loose font-light max-w-3xl mx-auto">
+        ACEM Capital 是一家立足香港的独立顾问机构。我们陪伴家庭与个人客户穿越欧洲与中东的地产市场，以及守护其后所需的跨境保险架构。
+      </p>
+    </div>
+  </section>
+
+  <!-- Service 1: Real Estate -->
+  <section id="services" class="py-32 md:py-44 px-6 bg-beige">
+    <div class="max-w-5xl mx-auto">
+      <div class="text-center mb-16">
+        <p class="section-tag mb-8">海外地产投资咨询</p>
+        <span class="gold-divider mb-12"></span>
+        <h2 class="display text-4xl md:text-6xl text-ink">
+          欧洲与中东<br /><span class="display-italic text-terra">全流程闭环</span>
+        </h2>
+      </div>
+
+      <p class="text-center text-base md:text-lg text-ink-soft leading-loose font-light max-w-3xl mx-auto mb-20">
+        从伦敦联排别墅到迪拜海滨公寓，从葡萄牙黄金签证组合到利雅得新兴区域——我们甄选、研判、执行与您生活方式真正契合的地产策略。
+      </p>
+
+      <div class="grid md:grid-cols-2 gap-x-16 gap-y-10 max-w-3xl mx-auto">
+        <div class="border-t border-khaki/50 pt-5">
+          <p class="text-xs tracking-[0.28em] text-khaki mb-3">01</p>
+          <p class="text-ink text-base font-light">市场研究与项目挖掘</p>
+        </div>
+        <div class="border-t border-khaki/50 pt-5">
+          <p class="text-xs tracking-[0.28em] text-khaki mb-3">02</p>
+          <p class="text-ink text-base font-light">收购执行与法律协调</p>
+        </div>
+        <div class="border-t border-khaki/50 pt-5">
+          <p class="text-xs tracking-[0.28em] text-khaki mb-3">03</p>
+          <p class="text-ink text-base font-light">居留与签证规划</p>
+        </div>
+        <div class="border-t border-khaki/50 pt-5">
+          <p class="text-xs tracking-[0.28em] text-khaki mb-3">04</p>
+          <p class="text-ink text-base font-light">持有期资产管理</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service 2: Insurance -->
+  <section class="py-32 md:py-44 px-6 bg-beige-deep">
+    <div class="max-w-5xl mx-auto">
+      <div class="text-center mb-16">
+        <p class="section-tag mb-8">保险经纪服务</p>
+        <span class="gold-divider mb-12"></span>
+        <h2 class="display text-4xl md:text-6xl text-ink">
+          财富的结构<br /><span class="display-italic text-terra">穿越世代</span>
+        </h2>
+      </div>
+
+      <p class="text-center text-base md:text-lg text-ink-soft leading-loose font-light max-w-3xl mx-auto mb-20">
+        对接全球顶级承保机构的独立顾问服务——契合您的家族架构、税务身份与传承意图。
+      </p>
+
+      <div class="grid md:grid-cols-2 gap-x-16 gap-y-10 max-w-3xl mx-auto">
+        <div class="border-t border-khaki/50 pt-5">
+          <p class="text-xs tracking-[0.28em] text-khaki mb-3">01</p>
+          <p class="text-ink text-base font-light">高净值人寿与储蓄</p>
+        </div>
+        <div class="border-t border-khaki/50 pt-5">
+          <p class="text-xs tracking-[0.28em] text-khaki mb-3">02</p>
+          <p class="text-ink text-base font-light">重疾与医疗保障</p>
+        </div>
+        <div class="border-t border-khaki/50 pt-5">
+          <p class="text-xs tracking-[0.28em] text-khaki mb-3">03</p>
+          <p class="text-ink text-base font-light">信托与传承规划</p>
+        </div>
+        <div class="border-t border-khaki/50 pt-5">
+          <p class="text-xs tracking-[0.28em] text-khaki mb-3">04</p>
+          <p class="text-ink text-base font-light">跨境保单架构</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why ACEM -->
+  <section id="why" class="py-32 md:py-48 px-6 bg-deep text-beige">
+    <div class="max-w-6xl mx-auto text-center">
+      <p class="section-tag mb-8" style="color:#C4A47C">为何选择 ACEM</p>
+      <span class="gold-divider mb-12"></span>
+      <h2 class="display text-4xl md:text-6xl">
+        一份<span class="display-italic text-terra">可以面对面解释清楚</span>的建议
+      </h2>
+
+      <div class="mt-24 grid md:grid-cols-2 gap-x-20 gap-y-16 max-w-5xl mx-auto text-left">
+        <div>
+          <p class="text-xs tracking-[0.32em] text-khaki mb-5">壹</p>
+          <h3 class="text-2xl font-light mb-4">跨境而生</h3>
+          <p class="text-beige/70 leading-loose font-light text-sm">扎根香港，深耕欧洲与中东市场。我们陪您在不同司法管辖区之间穿行，而非绕开它们。</p>
+        </div>
+        <div>
+          <p class="text-xs tracking-[0.32em] text-khaki mb-5">贰</p>
+          <h3 class="text-2xl font-light mb-4">独立立场</h3>
+          <p class="text-beige/70 leading-loose font-light text-sm">我们不持有任何自营产品，每一条建议只对客户利益负责。</p>
+        </div>
+        <div>
+          <p class="text-xs tracking-[0.32em] text-khaki mb-5">叁</p>
+          <h3 class="text-2xl font-light mb-4">精选市场</h3>
+          <p class="text-beige/70 leading-loose font-light text-sm">我们不做名录式罗列。只在真正建立认知的市场展开服务，做不到的就坦言放弃。</p>
+        </div>
+        <div>
+          <p class="text-xs tracking-[0.32em] text-khaki mb-5">肆</p>
+          <h3 class="text-2xl font-light mb-4">长期视角</h3>
+          <p class="text-beige/70 leading-loose font-light text-sm">地产与保险都是以十年为度量衡的决策。我们的服务编制与节奏，与之对齐。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process -->
+  <section id="process" class="py-32 md:py-44 px-6 bg-beige-soft">
+    <div class="max-w-6xl mx-auto">
+      <div class="text-center mb-20">
+        <p class="section-tag mb-8">服务流程</p>
+        <span class="gold-divider mb-12"></span>
+        <h2 class="display text-4xl md:text-6xl text-ink">
+          四步走<span class="display-italic text-terra">过程清晰</span>
+        </h2>
+      </div>
+
+      <div class="grid md:grid-cols-4 gap-12">
+        <div class="text-center md:text-left">
+          <p class="text-sm tracking-[0.22em] text-khaki mb-5">第一步</p>
+          <h3 class="text-2xl font-light text-ink mb-4">理解</h3>
+          <p class="text-ink-soft leading-loose font-light text-sm">倾听您的目标、家庭架构、风险偏好与时间维度。</p>
+        </div>
+        <div class="text-center md:text-left">
+          <p class="text-sm tracking-[0.22em] text-khaki mb-5">第二步</p>
+          <h3 class="text-2xl font-light text-ink mb-4">策略</h3>
+          <p class="text-ink-soft leading-loose font-light text-sm">出具完整书面顾问蓝图，涵盖管辖区、资产类别与保险架构。</p>
+        </div>
+        <div class="text-center md:text-left">
+          <p class="text-sm tracking-[0.22em] text-khaki mb-5">第三步</p>
+          <h3 class="text-2xl font-light text-ink mb-4">执行</h3>
+          <p class="text-ink-soft leading-loose font-light text-sm">项目寻源、谈判、法律协调与保单架构，全流程闭环。</p>
+        </div>
+        <div class="text-center md:text-left">
+          <p class="text-sm tracking-[0.22em] text-khaki mb-5">第四步</p>
+          <h3 class="text-2xl font-light text-ink mb-4">持续服务</h3>
+          <p class="text-ink-soft leading-loose font-light text-sm">年度回顾、市场情报与即时响应，长期陪伴。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-32 md:py-48 px-6 bg-beige-deep">
+    <div class="max-w-3xl mx-auto text-center">
+      <p class="section-tag mb-8">联系我们</p>
+      <span class="gold-divider mb-12"></span>
+      <h2 class="display text-4xl md:text-6xl text-ink">
+        让对话<span class="display-italic text-terra">开始</span>
+      </h2>
+      <p class="mt-12 text-base md:text-lg text-ink-soft leading-loose font-light max-w-3xl mx-auto">
+        无论是单笔交易，还是数十年的长期规划，我们都欢迎这场对话。
+      </p>
+      <a href="mailto:info@acemcapital.hk" class="inline-block mt-10 text-base md:text-lg text-terra hover:text-terra-dark transition">
+        info@acemcapital.hk
+      </a>
+      <div class="mt-10 text-sm text-ink-faint leading-loose space-y-1">
+        <p>九龙观塘巧明街 94-96 号</p>
+        <p>鸿图中心 2 楼 2C 室 P11</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-deep-2 text-beige pt-20 pb-12 px-6">
+    <div class="max-w-7xl mx-auto">
+      <div class="grid md:grid-cols-4 gap-12 mb-16">
+        <div class="md:col-span-2">
+          <p class="text-sm tracking-[0.32em] uppercase mb-4 text-terra">ACEM CAPITAL</p>
+          <p class="text-beige/65 max-w-xs leading-loose font-light">立足香港的独立顾问机构，服务全球家庭，覆盖欧洲及中东海外地产与跨境保险经纪。</p>
+        </div>
+        <div>
+          <p class="text-sm tracking-[0.22em] text-khaki mb-6">探索</p>
+          <ul class="space-y-3 text-beige/70">
+            <li><a href="#about" class="hover:text-terra transition">关于</a></li>
+            <li><a href="#services" class="hover:text-terra transition">业务</a></li>
+            <li><a href="#why" class="hover:text-terra transition">优势</a></li>
+            <li><a href="#process" class="hover:text-terra transition">流程</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="text-sm tracking-[0.22em] text-khaki mb-6">联系</p>
+          <ul class="space-y-3 text-beige/70">
+            <li><a href="mailto:info@acemcapital.hk" class="hover:text-terra transition">info@acemcapital.hk</a></li>
+            <li class="leading-loose">九龙观塘巧明街 94-96 号<br>鸿图中心 2 楼 2C 室 P11</li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t border-beige/10 pt-8 flex flex-col md:flex-row justify-between gap-4 text-xs text-beige/45 font-light">
+        <p>© 2026 ACEM Capital. 保留所有权利。</p>
+        <p class="max-w-md md:text-right leading-loose">本网站信息仅为一般性参考，不构成投资、保险、法律或税务建议。</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
